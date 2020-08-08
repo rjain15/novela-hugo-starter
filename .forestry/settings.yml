@@ -17,6 +17,13 @@ sections:
   templates:
   - post
 - type: directory
+  path: media
+  label: Media
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: directory
   path: newsletter
   label: Newsletters
   create: all
