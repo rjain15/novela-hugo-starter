@@ -17,14 +17,14 @@ sections:
   templates:
   - post
 - type: directory
-  path: videos
+  path: content/videos
   label: Videos
   create: all
   match: "**/*"
   templates:
   - post
 - type: directory
-  path: newsletter
+  path: content/newsletter
   label: Newsletters
   create: all
   match: "**/*"
