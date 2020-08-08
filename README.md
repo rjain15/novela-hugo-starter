@@ -1,12 +1,18 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8fd7da5f-0c4d-4a43-9e23-2d1baf0d35cc/deploy-status)](https://app.netlify.com/sites/hugo-novela-forestry/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a57aef60-ad59-4055-9c59-29ccdb2b8a43/deploy-status)](https://app.netlify.com/sites/confident-lewin-2b8f80/deploys)
 
-# Hugo Novela Forestry Starter
+# How to create website using Forestry - Hugo - Git - Netlify 
+
+This repo is for creating websites using Forestry, Hugo, Github and Netlify. The document below explains the role of each of this component, the complete pipeline and how to make changes. 
+
+This is based of the [Forestry Hugo Starter Template](https://github.com/forestryio/novela-hugo-starter) and the theme we use is the Novela theme. 
+
+## Hugo Novela Forestry Starter
 
 A port of [Narative](https://www.narative.co/)'s Gatsby theme [Novela](https://www.narative.co/labs/novela/)
 
 ![](images/tn.png)
 
-<a href="https://app.forestry.io/quick-start?repo=forestryio/novela-hugo-starter&engine=hugo&version=0.62.2">
+<a href="https://app.forestry.io/quick-start?repo=rjain15/novela-hugo-starter&engine=hugo&version=0.62.2">
     <img alt="Import this project into Forestry" src="https://assets.forestry.io/import-to-forestryK.svg" />
 </a>
 
@@ -22,6 +28,11 @@ This project has been pre-configured to work with [Forestry](https://forestry.io
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
 
 ## Deployment and hosting with Netlify
+
+For automatically deploying to netlify, there is a netlify.toml file included in the base of the repo, which is used for running the build commands. 
+
+
+**Alternatively**, you can import your site into Netlify and configure the build command. 
 
 Import your site in [Netlify](https://netlify.com)
 

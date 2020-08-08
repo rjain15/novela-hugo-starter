@@ -1,0 +1,24 @@
+{{ define "main" }}
+    <article itemscope itemtype="http://schema.org/Article" >
+        <header>
+            <h1 itemprop="name" id="{{ anchorize .Title }}" class="post-title border-bottom">
+            {{ .Title }}
+            {{ with .Params.description }}
+                <span class="sub-heading">{{ . }}</span>
+            {{ end }}
+            </h1>
+            {{ with .Params.vimeo }}
+            <allow-if level="user">
+                <div class="vid vid-center">
+                        <iframe src="https://player.vimeo.com/video/{{ . }}" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </allow-if>
+            {{ end }}
+        </header>
+        <div class="content-main">
+            <section class="content-article no-toc course-article" itemprop="articleBody">{{ .Content }}</section>
+        </div>
+        {{ $chapters := .Parent.Pages.ByWeight }} 
+    </article>
+{{ end }}
+
