@@ -17,8 +17,8 @@ sections:
   templates:
   - post
 - type: directory
-  path: media
-  label: Media
+  path: videos
+  label: Videos
   create: all
   match: "**/*"
   templates:
