@@ -1,4 +1,27 @@
 ---
 label: Newsletter
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
