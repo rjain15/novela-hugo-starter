@@ -5,6 +5,10 @@ pygmentsstyle = "monokai"
 theme = "novela"
 title = "Hugo Novela"
 [[menu.main]]
+name = "About"
+url = "/about/"
+weight = 4
+[[menu.main]]
 name = "Videos"
 url = "/videos/"
 weight = 3
